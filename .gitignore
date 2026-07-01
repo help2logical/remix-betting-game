@@ -1,0 +1,14 @@
+# Remix Betting Game
+
+Ignore node dependencies and build outputs:
+
+node_modules/
+dist/
+.env.local
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

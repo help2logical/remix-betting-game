@@ -1,17 +1,19 @@
 {
   "name": "remix-betting-game",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
+  "description": "Immersive number betting game with RBAC terminal",
+  "author": "Remix Team",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "firebase": "^10.7.0",
     "lucide-react": "^0.292.0"
   },
   "devDependencies": {
